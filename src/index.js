@@ -22,9 +22,9 @@ function generateRhyme(event) {
 
   axios.get(apiUrl).then(displayRhyme);
 
-  console.log(apiContext);
-  console.log(apiPrompt);
-  console.log("generating rhyme");
+  let rhymeElement = document.querySelector("#rhyme");
+  rhymeElement.classList.remove("hidden");
+  rhymeElement.innerHTML = '<div class="blink">🦋 generating rhyme</div>';
 }
 
 let rhymeGeneratorElement = document.querySelector("#rhyme-generator-form");

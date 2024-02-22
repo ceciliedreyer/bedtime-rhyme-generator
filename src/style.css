@@ -24,7 +24,17 @@ H1 {
 
 form {
   display: flex;
+}
+
+.form-container {
   margin-bottom: 30px;
+}
+
+.hint {
+  font-size: 10px;
+  opacity: 0.7;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .text-input {
@@ -59,6 +69,20 @@ form {
   line-height: 2;
 
   border-left: 3px solid #d6b1c6;
+}
+
+.hidden {
+  display: none;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 footer {

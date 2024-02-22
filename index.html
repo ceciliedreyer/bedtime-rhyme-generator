@@ -13,18 +13,27 @@
       <h1>bedtime rhyme generator</h1>
     </header>
     <main>
-      <form id="rhyme-generator-form">
-        <input
-          type="text"
-          class="text-input"
-          placeholder="describe your favourite stuffed animal..."
-          required
-          autocomplete="off"
-          id="instructions"
-        />
-        <input type="submit" class="submit-button" id="submit-button" />
-      </form>
-      <div class="rhyme" id="rhyme"></div>
+      <div class="form-container">
+        <form id="rhyme-generator-form">
+          <input
+            type="text"
+            class="text-input"
+            placeholder="describe your favourite stuffed animal..."
+            required
+            autocomplete="off"
+            id="instructions"
+          />
+          <input
+            type="submit"
+            class="submit-button"
+            id="submit-button"
+            value="Generate"
+          />
+        </form>
+        <p class="hint">i.e. en farlig tiger, a soft elefant, a cheeky dog</p>
+      </div>
+
+      <div class="rhyme hidden" id="rhyme"></div>
     </main>
     <footer>
       This AI project was coded by
