@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Bedtime Rhymes Generator</title>
   </head>
@@ -11,7 +13,7 @@
       <h1>bedtime rhyme generator</h1>
     </header>
     <main>
-      <form>
+      <form id="rhyme-generator-form">
         <input
           type="text"
           class="text-input"
@@ -19,9 +21,9 @@
           required
           autocomplete="off"
         />
-        <input type="submit" class="submit-button" />
+        <input type="submit" class="submit-button" id="submit-button" />
       </form>
-      <div class="poem" id="poem">
+      <div class="rhyme" id="rhyme">
         the poem <br />
         the poem...
       </div>

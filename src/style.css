@@ -27,8 +27,6 @@ form {
   margin-bottom: 30px;
 }
 
-.text-input.submit-button {
-}
 .text-input {
   display: inline;
   margin: 0 auto;
@@ -52,11 +50,11 @@ form {
   font-size: 14px;
 }
 
-.poem {
+.rhyme {
   background-color: white;
   padding: 20px;
   margin: 0 auto;
-  width: 560px;
+  width: 460px;
   font-size: 14px;
   line-height: 2;
 
