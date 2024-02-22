@@ -1,0 +1,75 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 200px 200px;
+  border-radius: 30px;
+  background-image: url(../img/teddy-bear-in-clouds.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+H1 {
+  margin: 20px;
+  text-align: center;
+  line-height: 2;
+  font-size: 40px;
+  text-decoration: overline;
+  color: #d6b1c6;
+}
+
+form {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.text-input.submit-button {
+}
+.text-input {
+  display: inline;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 30px;
+  text-align: left;
+  border: 1px solid #d6b1c6;
+  border-radius: 30px;
+}
+
+.submit-button {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  margin-left: 5px;
+  border: 1px solid #d6b1c6;
+  border-radius: 30px;
+  background-color: #d6b1c6;
+  color: white;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.poem {
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 560px;
+  font-size: 14px;
+  line-height: 2;
+
+  border-left: 3px solid #d6b1c6;
+}
+
+footer {
+  text-align: center;
+  margin: 20px 20px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+a {
+  color: #d6b1c6;
+}
